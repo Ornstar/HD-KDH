@@ -1,0 +1,53 @@
+/* DESKTOP */
+@media (min-width: 992px){
+  .c-caQEVx{
+    position: fixed !important;
+    overflow: hidden !important;
+    background: url("http://plcl.me/images/FoMne.jpg") center center / cover no-repeat !important;
+  }
+
+  .c-caQEVx img[alt="header-bg"]{
+    display: none !important;
+  }
+
+  .c-caQEVx::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.20);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .c-caQEVx > *{
+    position: relative !important;
+    z-index: 1 !important;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 991px){
+  .c-ptpKx{
+    position: fixed !important;
+    overflow: hidden !important;
+    background: url("http://plcl.me/images/gcPFz.jpg") center center / cover no-repeat !important;
+  }
+
+  .c-ptpKx img[alt="header-bg"]{
+    display: none !important;
+  }
+
+  .c-ptpKx::before{
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,.20);
+    pointer-events: none;
+    z-index: 0;
+  }
+
+  .c-ptpKx > *{
+    position: relative !important;
+    z-index: 1 !important;
+  }
+}
