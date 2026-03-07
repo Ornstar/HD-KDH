@@ -1,11 +1,33 @@
-/* SEMBUNYIKAN HEADER DESKTOP */
+/* =========================
+   DESKTOP: HILANGKAN TOTAL
+   ========================= */
 @media (min-width: 992px){
   .c-caQEVx{
+    display: none !important;
+    height: 0 !important;
+    min-height: 0 !important;
+    max-height: 0 !important;
+    padding: 0 !important;
+    margin: 0 !important;
+    overflow: hidden !important;
+    background: none !important;
+    border: 0 !important;
+  }
+
+  .c-caQEVx::before,
+  .c-caQEVx::after{
+    content: none !important;
+    display: none !important;
+  }
+
+  .c-caQEVx img[alt="header-bg"]{
     display: none !important;
   }
 }
 
-/* MOBILE HEADER */
+/* =========================
+   MOBILE: TETAP AKTIF
+   ========================= */
 @media (max-width: 991px){
   .c-ptpKx{
     position: fixed !important;
