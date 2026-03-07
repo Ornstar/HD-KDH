@@ -1,7 +1,7 @@
 /* DESKTOP */
 @media (min-width: 992px){
   .c-caQEVx{
-    position: fixed !important;
+    position: relative !important;
     overflow: hidden !important;
     background: url("http://plcl.me/images/FoMne.jpg") center center / cover no-repeat !important;
   }
