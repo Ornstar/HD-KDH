@@ -3,7 +3,9 @@
   .c-caQEVx{
     position: relative !important;
     overflow: hidden !important;
-    background: url("http://plcl.me/images/FoMne.jpg") center center / cover no-repeat !important;
+    min-height: 90px !important;
+    background: url("http://plcl.me/images/FoMne.jpg") center center / contain no-repeat !important;
+    background-color: #1a1a1a !important;
   }
 
   .c-caQEVx img[alt="header-bg"]{
@@ -14,7 +16,7 @@
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0,0,0,.20);
+    background: rgba(0,0,0,.10);
     pointer-events: none;
     z-index: 0;
   }
